@@ -1,4 +1,4 @@
-# Semáforo com React- [https://anota-ai-1.onrender.com](https://semaforo-com-react.netlify.app/public/)
+# Semáforo com React- https://semaforo-com-react.netlify.app/public/
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/MoroFernando/semaforo_com_react/blob/main/LICENSE) 
 
 # Sobre o projeto
