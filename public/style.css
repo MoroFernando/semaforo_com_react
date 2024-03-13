@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    width: 100%;
+    height: 100vh;
+    background-color: #D3D3D3;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    padding: 20px;
+    border: solid 8px #858585;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), inset 1px 1px 8px 2px rgba(255, 255, 255, 0.2);
+}
+
+.luz {
+    border-radius: 50%;
+    background-color: #333333;
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 1), inset 2px 2px 8px 2px rgba(255, 255, 255, 0.1);
+}
+
+.luz.vermelho{
+    background-color: rgb(200, 0, 0);
+    box-shadow: 0px 0px 20px 2px red, inset -2px -2px 8px 2px rgba(255, 255, 255, 0.3), inset 2px 2px 8px 2px rgba(255, 0, 0, 1);
+}
+
+.luz.amarelo{
+    background-color: rgb(200, 200, 0);
+    box-shadow: 0px 0px 20px 2px yellow, inset -2px -2px 8px 2px rgba(255, 255, 255, 0.3), inset 2px 2px 8px 2px rgba(255, 255, 0, 1)
+}
+
+.luz.verde{
+    background-color: rgb(0, 200, 0);
+    box-shadow: 0px 0px 20px 2px green, inset -2px -2px 8px 2px rgba(255, 255, 255, 0.3), inset 2px 2px 8px 2px rgba(0, 255, 0, 1)
+}
