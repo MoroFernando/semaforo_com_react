@@ -10,11 +10,11 @@ const Semaforo = () => {
 
         setTimeout(() => {
 
-            if (cor.includes("vermelho")) { setCor([null, null, "verde"]); setDuracao(6000); }
+            if (cor.includes("vermelho")) { setCor([null, null, "verde"]); setDuracao(4000); }
 
             else if (cor.includes("verde")) { setCor([null, "amarelo", null]); setDuracao(1000); }
 
-            else if (cor.includes("amarelo")) { setCor(["vermelho", null, null]); setDuracao(6000); }
+            else if (cor.includes("amarelo")) { setCor(["vermelho", null, null]); setDuracao(4000); }
 
             else { setCor(["vermelho", null, null]); setDuracao(6000); }
 
