@@ -7,6 +7,9 @@ Este é um projeto de uma página web simples renderizando um semáforo funciona
 
 O propósito do projeto foi de ter o primeiro contato com React. Porém decidi também evitar o uso de ferramentas auxíliares como o 'create-react-app' para configuração do ambiente, dessa forma consegui entender a fundo o que de fato acontece por trás dos panos de uma aplicação React, bem como a necessidade de usar transpiladores e empacotadores como o Babel e Webpack.
 
+## Screenshots
+![semafaro_com_react](https://github.com/MoroFernando/semaforo_com_react/assets/106317313/628d914c-5e96-455f-a891-0b00910e69d6)
+
 ## Tecnologias utilizadas
 - React
 - Webpack
